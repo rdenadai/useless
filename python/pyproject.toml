@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "useless"
+version = "0.0.1"
+description = "Useless software written in Python"
+authors = ["Rodolfo De Nadai <rdenadai@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+orjson = "^3.9.9"
+arcade = "^2.6.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
